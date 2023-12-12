@@ -64,15 +64,15 @@ git ssh配置是CentOS7上的操作，windows同理。
 
 ```bash
 yum install git
-git config --global user.name "xwzbupt"
-git config --global user.email "xwze@bupt.cn"
+git config --global user.name "xxx"
+git config --global user.email "xxx@qq.com"
 git config --list
 ```
 
 2. 生成公钥：
 
 ```bash
-ssh-keygen -t rsa -C "xwze@bupt.cn"
+ssh-keygen -t rsa -C "xxx@qq.com"
 cd ~/.ssh
 vim id_rsa.pub
 ```
@@ -93,10 +93,10 @@ ssh -T git@github.com
 选择项目放置的路径，在该路径下运行如下命令，拉取github的空项目以及将local和remote端连起来。
 
 ```bash
-git clone git@github.com:xwzbupt/personal-site.git
+git clone git@github.com:panslong/panslong.github.io.git
 ```
 
-进入该空项目的路径中，初始化该项目。初始化以及后续的开发步骤见[网站开发步骤](./devguide)。
+进入该空项目的路径中，初始化该项目
 
 开发完毕后，可以运行`pnpm docs:dev`来生成开发服务器，接着就可以通过浏览器访问`localhost:8080`来访问网站了。此时如果修改了源代码，保存代码后开发服务器也会进行热更新。
 
@@ -200,7 +200,3 @@ jobs:
 配置nginx相关信息可以参考[这一篇博客](https://blog.csdn.net/m0_49868348/article/details/118021532)，唯一需要注意一点的是，github仓库中gh-pages分支存放的就是dist文件夹的东西，切换到该分支，将该分支pull到云服务器中，修改nginx的conf文件，将root指向dist。
 
 
-
-## 五、TroubleShooting
-
-https://github.com/easingthemes/ssh-deploy/issues/18

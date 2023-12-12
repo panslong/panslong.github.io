@@ -1,11 +1,8 @@
-<h1>
-  <span>徐维泽</span>
-  <ul>
-    <li><span>性别</span>男</li>
-    <li><span>电话&微信</span>188 1161 3678</li>
-    <li><span>邮箱</span><a href="mailto:xwze@bupt.cn">xwze@bupt.cn</a></li>
-  </ul>
-</h1>
+---
+# 此页面会出现在首页的文章板块中
+article: false
+---
+
 
 
 ## 教育经历
