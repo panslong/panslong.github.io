@@ -199,6 +199,8 @@ jobs:
 
 配置nginx相关信息可以参考[这一篇博客](https://blog.csdn.net/m0_49868348/article/details/118021532)，唯一需要注意一点的是，github仓库中gh-pages分支存放的就是dist文件夹的东西，切换到该分支，将该分支pull到云服务器中，修改nginx的conf文件，将root指向dist。
 
+
+
 ## 五、TroubleShooting
 
 https://github.com/easingthemes/ssh-deploy/issues/18
