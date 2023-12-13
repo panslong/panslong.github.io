@@ -56,14 +56,14 @@ jobs:
         with:
           ref: gh-pages
 
-      - name: Deploy to Aliyun Server
-        uses: easingthemes/ssh-deploy@v2.2.11
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
-          ARGS: "-rlgoDzvc --delete"
-          SOURCE: ${{ secrets.SOURCE }}
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.USER_NAME }}
-          TARGET: ${{ secrets.TARGET }}
+      #- name: Deploy to Aliyun Server
+        #uses: easingthemes/ssh-deploy@v2.2.11
+        #env:
+          #SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          #ARGS: "-rlgoDzvc --delete"
+          #SOURCE: ${{ secrets.SOURCE }}
+          #REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          #REMOTE_USER: ${{ secrets.USER_NAME }}
+          #TARGET: ${{ secrets.TARGET }}
           
           

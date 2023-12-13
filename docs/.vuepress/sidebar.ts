@@ -15,6 +15,19 @@ export const sidebarConfig = sidebar({
        
       ]
     },
+    {
+      prefix: "Redis/",
+      text: "Redis",
+      icon: "creative",
+      collapsible: true,
+      children: [
+        "2023-11-10-Redis-原理-网络模型",
+        "2023-11-21-Redis持久化",
+        "2023-11-21-Redis集群",
+        "2023-11-21-如何避免缓存雪崩、缓存击穿、缓存穿透？"
+       
+      ]
+    }
   ],
   "/distributed/":[
     {
