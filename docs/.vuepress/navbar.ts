@@ -194,6 +194,11 @@ export const navbarConfig = navbar([
       {
         text: "关于本站",
         icon: "info",
+        link: "introduction",
+      },
+      {
+        text: "搭建教程",
+        icon: "info",
         link: "guide",
       }
     ],
