@@ -16,7 +16,17 @@ isShowComment: true
 
 ## 工具箱
 
-[在线工具箱集合](https://tool.lu/)		[PDF在线转换工具](https://www.pdf365.cn/)		[在线PDF转WORD](https://www.alltoall.net/)		[二维码生成器](https://cli.im/)		
+[在线工具箱集合](https://tool.lu/)		[PDF在线转换工具](https://www.pdf365.cn/)		[在线PDF转WORD](https://www.alltoall.net/)		[二维码生成器](https://cli.im/)	
+
+[图片压缩Tiny](https://tinypng.com/)	
+
+## 壁纸
+
+[wallhaven（梯子）](https://wallhaven.cc/)
+
+[bz.zzzmh](https://bz.zzzmh.cn/)
+
+[必应壁纸-每日一图](https://bing.ee123.net/)
 
 ## 博客论坛
 

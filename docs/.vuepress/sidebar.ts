@@ -63,6 +63,53 @@ export const sidebarConfig = sidebar({
         "2022-11-15-JVM-实战篇2-GC调优",
         "2022-11-16-JVM-实战篇3-性能调优"
       ]
+    },
+    {
+      prefix: "design-patterns/",
+      text: "设计模式",
+      icon: "creative",
+      collapsible: true,
+      children: [
+        {
+          text: "创建者模式",
+          collapsible: true,
+          prefix: "creational-patterns/",
+          children: 
+          [
+            "",
+            "2022-11-02-设计模式-单例模式", 
+            "2022-11-02-设计模式-工厂模式", 
+          ],
+        },
+        {
+          text: "结构型模式",
+          collapsible: true,
+          prefix: "structural-patterns/",
+          children: 
+          [
+            "",
+          ],
+        },
+        {
+          text: "行为型模式",
+          collapsible: true,
+          prefix: "behavioral-patterns/",
+          children: 
+          [
+            "2022-11-12-设计模式-模板模式",
+            "2022-11-13-设计模式-策略模式",
+            "2022-11-13-设计模式-观察者模式",
+            "2022-11-13-设计模式-命令模式",
+            "2022-11-13-设计模式-职责链模式",
+            "2022-11-13-设计模式-状态模式",
+            "2022-11-14-设计模式-中介者模式",
+            "2022-11-14-设计模式-迭代器模式",
+            "2022-11-14-设计模式-访问者模式",
+            "2022-11-14-设计模式-备忘录模式",
+            "2022-11-15-设计模式-解释器模式"
+          ],
+        },
+      ]
     }
   ]
 

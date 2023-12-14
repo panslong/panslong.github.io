@@ -4,10 +4,11 @@ layout: BlogHome
 icon: home
 title: 博客主页
 # heroImage: /640.png
-heroText: 七分熟的学习笔记
-bgImage: /mountain.jpg
+heroText: ""
+bgImage: /bg2.jpg
 heroFullScreen: true
-tagline: 所有的经验都源于你犯过的错误
+# tagline: 所有的经验都源于你犯过的错误
+tagline: 青春须早为，岂能长少年
 # projects:
 #   - icon: project
 #     name: pdai

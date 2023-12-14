@@ -16,6 +16,10 @@ export const navbarConfig = navbar([
         text: "JVM",
         link: "JVM/"
       },
+      {
+        text: "设计模式",
+        link: "design-patterns/"
+      },
     ],
   },
   {
@@ -60,10 +64,6 @@ export const navbarConfig = navbar([
       {
         text: "RabbitMQ",
         link: "RabbitMQ/"
-      },
-      {
-        text: "SpringBoot",
-        link: "SpringBoot/"
       },
       {
         text: "分布式系统",
@@ -166,6 +166,11 @@ export const navbarConfig = navbar([
   //     }
   //   ],
   // },
+  {
+    text:"杂记",
+    link: "/other/",
+    icon: "others"
+  },
   {
     text:"导航",
     link: "/navigation/",
