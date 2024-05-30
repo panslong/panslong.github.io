@@ -23,6 +23,21 @@ export const navbarConfig = navbar([
     ],
   },
   {
+    text: "计算机基础",
+    icon: "rank",
+    prefix: "/computer-basics/",
+    children: [
+      {
+        text: "数据结构",
+        link: "data-structure/"
+      },
+      {
+        text: "Linux",
+        link: "Linux/"
+      },
+    ]
+  },
+  {
     text: "数据库",
     icon: "mysql",
     prefix: "/database/",
@@ -66,7 +81,7 @@ export const navbarConfig = navbar([
         link: "RabbitMQ/"
       },
       {
-        text: "分布式系统",
+        text: "分布式",
         link: "distributed/"
       }
     ],

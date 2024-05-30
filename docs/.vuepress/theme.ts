@@ -48,7 +48,7 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      // Email: "xwze@bupt.cn",
+      Email: "1063589459@qq.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -61,7 +61,7 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      // QQ: "http://wpa.qq.com/msgrd?v=3&uin=1134685563&site=qq&menu=yes",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1063589459&site=qq&menu=yes",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
@@ -75,25 +75,24 @@ export default hopeTheme({
     },
   },
 
-  // encrypt: {
-  //   config: {
-  //     "/guide/encrypt.html": ["1234"],
-  //     "/about/cv": ["weiser-cv"],
-  //     "/language/Java": ["weiser-java"]
-  //   },
-  // },
+  encrypt: {
+    config: {
+      "/guide/encrypt.html": ["1234"],
+      "/about/guide": ["psl-guide"],
+    },
+  },
 
   plugins: {
     blog: {
       
     },
-    comment: {
-      provider: "Giscus",
-      repo: "xwzbupt/personal-site-comment",
-      repoId: "R_kgDOHdLpkQ",
-      category: "Announcements",
-      categoryId: "DIC_kwDOHdLpkc4CPfmK",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "xwzbupt/personal-site-comment",
+    //   repoId: "R_kgDOHdLpkQ",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOHdLpkc4CPfmK",
+    // },
 
     // Disable features you don’t want here
     mdEnhance: {

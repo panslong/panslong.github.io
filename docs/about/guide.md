@@ -2,7 +2,7 @@
 # 此页面会在文章列表置顶
 sticky: false
 # 此页面会出现在首页的文章板块中
-star: true
+star: false
 ---
 
 # 本站搭建步骤

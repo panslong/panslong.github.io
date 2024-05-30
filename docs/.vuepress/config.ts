@@ -4,11 +4,12 @@ import theme from "./theme";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "七分熟",
-  description: "vuepress-theme-hope 的演示",
+  description: "七分熟的学习笔记",
 
   //如果是使用gh-pages布署，base应该用仓库名
   //base: "/personal-site/",
   base: "/",
+  dest: './dist',
   head: [
     [
       "link",

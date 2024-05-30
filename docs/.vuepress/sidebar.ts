@@ -10,9 +10,7 @@ export const sidebarConfig = sidebar({
       icon: "creative",
       collapsible: true,
       children: [
-        "2021-01-18-详解MySQL索引",
-        "2021-01-18-详解MySQL索引02",
-       
+        "2021-01-18-详解MySQL索引"
       ]
     },
     {
@@ -41,6 +39,38 @@ export const sidebarConfig = sidebar({
         "2022-08-22-如何确保MQ消息的可靠性？",
       ]
     },
+    {
+      prefix: "distributed/",
+      text: "分布式",
+      icon: "creative",
+      collapsible: true,
+      children: [
+        "2022-08-21-CAP & BASE理论",
+        "2023-08-21-分布式事务"
+      ]
+    },
+  ],
+  "/computer-basics/":[
+    {
+      prefix: "data-structure/",
+      text: "数据结构",
+      icon: "creative",
+      collapsible: true,
+      children: [
+        "2023-12-01-线性数据结构",
+      ]
+    },
+  ],
+  "/framework/":[
+    {
+      prefix: "Spring/",
+      text: "Spring",
+      icon: "creative",
+      collapsible: true,
+      children: [
+        "2023-12-18-Spring循环依赖",
+      ]
+    },
   ],
   "/Java/":[
     {
@@ -49,7 +79,9 @@ export const sidebarConfig = sidebar({
       icon: "creative",
       collapsible: true,
       children: [
-       
+        "2023-12-18-提高生产效率的Lambda表达式",
+        "2022-10-18-线程池",
+        "2023-12-19-CompletableFuture 详解"
       ]
     },
     {
@@ -79,6 +111,8 @@ export const sidebarConfig = sidebar({
             "",
             "2022-11-02-设计模式-单例模式", 
             "2022-11-02-设计模式-工厂模式", 
+            "2022-11-03-设计模式-原型模式",
+            "2022-11-04-设计模式-建造者模式"
           ],
         },
         {
@@ -88,6 +122,13 @@ export const sidebarConfig = sidebar({
           children: 
           [
             "",
+            "2022-11-06-设计模式-代理模式",
+            "2022-11-06-设计模式-适配器模式",
+            "2022-11-07-设计模式-装饰者模式",
+            "2022-11-07-设计模式-桥接模式",
+            "2022-11-07-设计模式-外观模式",
+            "2022-11-07-设计模式-组合模式",
+            "2022-11-07-设计模式-享元模式"
           ],
         },
         {
